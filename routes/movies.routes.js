@@ -7,7 +7,7 @@ const Movie = require('../models/Movie.model');
 router.get('/movies', (req, res, next) => {
     Movie.find()
     .then(allMoviesFromDB => {
-        console.log('the movies are:', allMoviesFromDB);
+        // console.log('the movies are:', allMoviesFromDB);
         // const  title = { title: allMoviesFromDB }
         // console.log(title);
 

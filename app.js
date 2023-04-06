@@ -27,8 +27,10 @@ app.locals.title = `${capitalized(projectName)}- Generated with Ironlauncher`;
 // 👇 Start handling routes here
 const index = require('./routes/index');
 const movies = require('./routes/movies.routes');
+const movieInfo = require('./routes/info.routes');
 app.use('/', index);
 app.use('/', movies);
+app.use('/', movieInfo);
 
 
 
