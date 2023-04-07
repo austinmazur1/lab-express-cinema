@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -8,6 +8,6 @@ a {
 }
 
 .bg {
-  background-image: url();
+  background-image: url('/Users/austinmazur/Desktop/ironhackClass/labs/cinemaLab/lab-express-cinema/public/images/cinema.jpg');
 
 }
